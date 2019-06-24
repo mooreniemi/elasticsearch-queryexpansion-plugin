@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: edu.illinois.lis:ir-utils:0.2.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/edu/illinois/lis/ir-utils/0.2.0-SNAPSHOT/ir-utils-0.2.0-20170804.213909-22.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/edu/illinois/lis/ir-utils/0.2.0-SNAPSHOT/ir-utils-0.2.0-20170804.213909-22-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/edu/illinois/lis/ir-utils/0.2.0-SNAPSHOT/ir-utils-0.2.0-20170804.213909-22-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

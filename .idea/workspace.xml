@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e33f1e9-8a30-4679-a931-92d391647399" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/assemblies/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assemblies/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/elasticsearch/rocchio/Rocchio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/Rocchio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/elasticsearch/rocchio/RocchioException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/elasticsearch/rocchio/RocchioExpandRestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioExpandRestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/elasticsearch/rocchio/RocchioPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin-descriptor.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin-descriptor.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/nationaldataservice/elasticsearch/rocchio/test/integration/AbstractITCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nationaldataservice/rocchio/test/integration/AbstractITCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/nationaldataservice/elasticsearch/rocchio/test/integration/RocchioIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nationaldataservice/rocchio/test/integration/RocchioIT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/nationaldataservice/elasticsearch/rocchio/test/unit/RocchioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nationaldataservice/rocchio/test/unit/RocchioTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/remove.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/install.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/assemblies/plugin.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioExpandRestAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+              <folding>
+                <element signature="e#1569#1570#0" expanded="true" />
+                <element signature="e#1633#1634#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/Rocchio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="439" column="76" selection-start-line="439" selection-start-column="76" selection-end-line="439" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#154#169#0" expanded="true" />
+                <element signature="e#220#235#0" expanded="true" />
+                <element signature="e#286#301#0" expanded="true" />
+                <element signature="e#286#301#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/cluster/metadata/MappingMetaData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="158" column="31" selection-start-line="158" selection-start-column="31" selection-end-line="158" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/FeatureVectorLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-422">
+              <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/client/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="411" column="29" selection-start-line="411" selection-start-column="29" selection-end-line="411" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>client</find>
+      <find>getName</find>
+      <find>lucene</find>
+      <find>mock</find>
+      <find>juni</find>
+      <find>Char</find>
+      <find>junit</find>
+      <find>output</find>
+      <find>elasticsearch</find>
+      <find>expand</find>
+      <find>dataset</find>
+      <find>expandrest</find>
+      <find>ensureTerm</find>
+      <find>store</find>
+      <find>field</find>
+      <find>doc.sent</find>
+      <find>getFeedback</find>
+      <find>_all</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/org/nationaldataservice/elasticsearch/rocchio/test/integration/AbstractITCase.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/FeatureVector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/nationaldataservice/elasticsearch/rocchio/Rocchio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/nationaldataservice/elasticsearch/rocchio/RocchioExpandRestAction.java" />
+        <option value="$PROJECT_DIR$/src/test/java/org/nationaldataservice/elasticsearch/rocchio/test/unit/RocchioTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/FeatureVectorCAI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/FeatureVectorLocal.java" />
+        <option value="$PROJECT_DIR$/src/main/assemblies/plugin.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioExpandRestAction.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/Rocchio.java" />
+        <option value="$PROJECT_DIR$/test.sh" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/rocchio.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" />
+        <option value="$PROJECT_DIR$/.idea/markdown-navigator.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_adobe_xmp_xmpcore_5_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_drewnoakes_metadata_extractor_2_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_1_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_juniversalchardet_juniversalchardet_1_0_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_mp4parser_isoparser_1_0_RC_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_typesafe_config_1_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_uwyn_jhighlight_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_configuration_commons_configuration_1_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__commons_validator_commons_validator_1_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__de_l3s_boilerpipe_boilerpipe_1_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__edu_illinois_lis_indri_5_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__edu_illinois_lis_ir_utils_0_2_0_SNAPSHOT.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__edu_ucar_netcdf_4_2_min.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__jdom_jdom_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_squirrel_sql_thirdparty_non_maven_java_cup_0_11a.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__nz_ac_waikato_cms_weka_weka_stable_3_6_6.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_math3_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_james_apache_mime4j_core_0_7_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_james_apache_mime4j_dom_0_7_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_6_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_fontbox_1_8_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_jempbox_1_8_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_pdfbox_pdfbox_1_8_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_10_beta2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_10_beta2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_10_beta2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_scratchpad_3_10_beta2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_9_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tika_tika_core_1_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tika_tika_parsers_1_5.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_3_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_11.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcmail_jdk15_1_45.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15_1_45.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_securemock_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_gagravarr_vorbis_java_core_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_gagravarr_vorbis_java_core_tests_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_gagravarr_vorbis_java_tika_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_debug_all_4_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_5_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__rome_rome_0_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_8_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_carrotsearch_randomizedtesting_randomizedtesting_runner_2_5_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_8_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_8_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_8_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_tdunning_t_digest_3_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_codecs_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_join_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_memory_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_misc_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_6_4_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_sniffer_6_4_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_client_rest_6_0_0_alpha2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_6_4_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_cli_6_4_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_core_6_4_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_secure_sm_6_4_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_elasticsearch_x_content_6_4_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_jna_4_5_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_mocksocket_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_elasticsearch_test_framework_6_4_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_core_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queries_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_lucene_lucene_test_framework_7_4_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_28_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_inline_2_28_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="-4" />
+    <option name="width" value="3200" />
+    <option name="height" value="1791" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="assemblies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rocchio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.illinois.lis:ir-utils:0.2.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.illinois.lis:ir-utils:0.2.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="ir-utils-0.2.0-20170804.213909-22.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.illinois.lis:ir-utils:0.2.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="ir-utils-0.2.0-20170804.213909-22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gslis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: edu.illinois.lis:ir-utils:0.2.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
+              <item name="ir-utils-0.2.0-20170804.213909-22.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gslis" type="462c0819:PsiDirectoryNode" />
+              <item name="textrepresentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Remote.ESDebug">
+    <configuration name="All in rocchio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rocchio" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RocchioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rocchio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.nationaldataservice.elasticsearch.rocchio.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.nationaldataservice.elasticsearch.rocchio.test.unit" />
+      <option name="MAIN_CLASS_NAME" value="org.nationaldataservice.elasticsearch.rocchio.test.unit.RocchioTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.nationaldataservice.elasticsearch.rocchio.test in rocchio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rocchio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.nationaldataservice.elasticsearch.rocchio.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.nationaldataservice.elasticsearch.rocchio.test" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ESDebug" type="Remote">
+      <module name="rocchio" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in rocchio" />
+      <item itemvalue="JUnit.org.nationaldataservice.elasticsearch.rocchio.test in rocchio" />
+      <item itemvalue="JUnit.RocchioTest" />
+      <item itemvalue="Remote.ESDebug" />
+      <item itemvalue="Java Scratch.Scratch" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Java Scratch.Scratch" />
+        <item itemvalue="JUnit.RocchioTest" />
+        <item itemvalue="JUnit.org.nationaldataservice.elasticsearch.rocchio.test in rocchio" />
+        <item itemvalue="JUnit.All in rocchio" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e33f1e9-8a30-4679-a931-92d391647399" name="Default Changelist" comment="" />
+      <created>1561306607882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561306607882</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="org_nationaldataservice_elasticsearch_rocchio_test_in_rocchio - 2019.06.23 at 12h 42m 06s.xml">
+      <configuration name="org.nationaldataservice.elasticsearch.rocchio.test in rocchio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RocchioTest - 2019.06.23 at 12h 45m 44s.xml">
+      <configuration name="RocchioTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RocchioTest - 2019.06.23 at 12h 47m 37s.xml">
+      <configuration name="RocchioTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RocchioTest - 2019.06.23 at 12h 52m 17s.xml">
+      <configuration name="RocchioTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RocchioTest - 2019.06.23 at 12h 54m 27s.xml">
+      <configuration name="RocchioTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_rocchio - 2019.06.23 at 13h 07m 14s.xml">
+      <configuration name="All in rocchio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="org_nationaldataservice_elasticsearch_rocchio_test_in_rocchio - 2019.06.23 at 13h 10m 32s.xml">
+      <configuration name="org.nationaldataservice.elasticsearch.rocchio.test in rocchio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="org_nationaldataservice_elasticsearch_rocchio_test_in_rocchio - 2019.06.23 at 13h 10m 58s.xml">
+      <configuration name="org.nationaldataservice.elasticsearch.rocchio.test in rocchio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="org_nationaldataservice_elasticsearch_rocchio_test_in_rocchio - 2019.06.23 at 13h 11m 08s.xml">
+      <configuration name="org.nationaldataservice.elasticsearch.rocchio.test in rocchio" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RocchioTest - 2019.06.23 at 13h 11m 28s.xml">
+      <configuration name="RocchioTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-4" width="3200" height="1791" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24983881" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3290735" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32987687" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290735" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39552715" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Cargo" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/stoplist.all">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-x-content/6.4.2/elasticsearch-x-content-6.4.2.jar!/org/elasticsearch/common/xcontent/XContent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-x-content/6.4.2/elasticsearch-x-content-6.4.2-sources.jar!/org/elasticsearch/common/xcontent/XContent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch-x-content/6.4.2/elasticsearch-x-content-6.4.2-sources.jar!/org/elasticsearch/common/xcontent/DeprecationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/nationaldataservice/rocchio/test/integration/AbstractITCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2800">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/nationaldataservice/rocchio/test/integration/RocchioIT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2.jar!/org/elasticsearch/cluster/ClusterState.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="641" selection-start-line="641" selection-end-line="641" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2.jar!/org/elasticsearch/cluster/node/DiscoveryNodes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="505" selection-start-line="505" selection-end-line="505" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2.jar!/org/elasticsearch/Version.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="594" selection-start-line="594" selection-end-line="594" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2.jar!/org/elasticsearch/search/SearchHits.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2.jar!/org/elasticsearch/search/SearchHit.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="485" column="28" selection-start-line="485" selection-start-column="28" selection-end-line="485" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/securemock/1.2/securemock-1.2.jar!/org/mockito/runners/MockitoJUnitRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/edu/illinois/lis/ir-utils/0.2.0-SNAPSHOT/ir-utils-0.2.0-20170804.213909-22.jar!/edu/gslis/textrepresentation/FeatureVector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="61" column="11" selection-start-line="61" selection-start-column="11" selection-end-line="61" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#10885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-analyzers-common/7.4.0/lucene-analyzers-common-7.4.0.jar!/org/apache/lucene/analysis/util/CharArrayIterator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/edu/illinois/lis/ir-utils/0.2.0-SNAPSHOT/ir-utils-0.2.0-20170804.213909-22-sources.jar!/edu/gslis/utils/Stopper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/edu/illinois/lis/ir-utils/0.2.0-SNAPSHOT/ir-utils-0.2.0-20170804.213909-22-sources.jar!/edu/gslis/textrepresentation/FeatureVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/7.4.0/lucene-core-7.4.0.jar!/org/apache/lucene/analysis/standard/StandardAnalyzer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/7.4.0/lucene-core-7.4.0.jar!/org/apache/lucene/analysis/CharArraySet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/7.4.0/lucene-core-7.4.0-sources.jar!/org/apache/lucene/analysis/standard/StandardAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/7.4.0/lucene-core-7.4.0-sources.jar!/org/apache/lucene/analysis/CharArraySet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="3" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/org/nationaldataservice/rocchio/test/unit/RocchioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="267" column="46" selection-start-line="267" selection-start-column="46" selection-end-line="267" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3/lib/maven-model-builder-3.3.9.jar!/org/apache/maven/model/pom-4.0.0.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="72" column="64" selection-start-line="72" selection-start-column="64" selection-end-line="72" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rebuild.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/remove.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/install.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/assemblies/plugin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2.jar!/org/elasticsearch/rest/BaseRestHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/rest/BaseRestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/usage/UsageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="95" column="45" selection-start-line="95" selection-start-column="45" selection-end-line="95" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/action/termvectors/TermVectorsRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4219">
+          <caret line="157" column="11" selection-start-line="157" selection-start-column="11" selection-end-line="157" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/action/termvectors/MultiTermVectorsItemResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+          <folding>
+            <element signature="e#2420#2421#0" expanded="true" />
+            <element signature="e#2456#2457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="411" column="29" selection-start-line="411" selection-start-column="29" selection-end-line="411" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/action/termvectors/MultiTermVectorsResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3790">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/FeatureVectorLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-422">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/cluster/metadata/MappingMetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="158" column="31" selection-start-line="158" selection-start-column="31" selection-end-line="158" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioExpandRestAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
+          <folding>
+            <element signature="e#1569#1570#0" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#154#169#0" expanded="true" />
+            <element signature="e#220#235#0" expanded="true" />
+            <element signature="e#286#301#0" expanded="true" />
+            <element signature="e#286#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/Rocchio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="439" column="76" selection-start-line="439" selection-start-column="76" selection-end-line="439" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

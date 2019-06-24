@@ -7,13 +7,15 @@ TEST_USERNAME="elastic"
 TEST_PASSWORD="changeme"
 
 # Specify expansion / search parameters
-TEST_INDEX="biocaddie"
-SEARCH_TYPE="dataset"
-TEST_QUERY="multiple+sclerosis"
+TEST_INDEX=${1:-biocaddie}
+SEARCH_TYPE=${2:-dataset}
+TEST_FIELD=${3:-_all}
+TEST_QUERY=${4:-multiple+sclerosis}
+# FIXME: below unused currently
 STOP_LIST="a+an+the+and+or+of+from+on+was+to+is+-+were+at+as+we"
 
 # Override additional parameters here
-ADDITIONAL_ARGS="&fbTerms=20&fbDocs=50"
+ADDITIONAL_ARGS="&fbTerms=5&fbDocs=25"
 
 # Otherwise, just run Rocchio and return the expanded query
-curl -u "${TEST_USERNAME}:${TEST_PASSWORD}" ${TEST_HOST}:${TEST_PORT}/${TEST_INDEX}/${SEARCH_TYPE}/_expand'?pretty'${ADDITIONAL_ARGS}'&query='${TEST_QUERY}
+curl -u "${TEST_USERNAME}:${TEST_PASSWORD}" ${TEST_HOST}:${TEST_PORT}/${TEST_INDEX}/${SEARCH_TYPE}/_expand'?pretty'${ADDITIONAL_ARGS}'&query='${TEST_QUERY}'&field='${TEST_FIELD}

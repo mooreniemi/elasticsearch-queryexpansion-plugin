@@ -71,15 +71,15 @@
     <elasticsearch.groupid>org.elasticsearch.distribution.zip</elasticsearch.groupid>
 
     <!-- Dependency versions -->
-    <elasticsearch.version>5.3.2</elasticsearch.version>
-    <elasticsearch.client.version>5.3.2</elasticsearch.client.version>
+    <elasticsearch.version>6.4.2</elasticsearch.version>
+    <elasticsearch.client.version>6.0.0-alpha2</elasticsearch.client.version>
     <ir-utils.version>0.2.0-SNAPSHOT</ir-utils.version>
     <junit.version>4.11</junit.version>
     <log4j.version>2.6.2</log4j.version>
     <snakeyaml.version>1.15</snakeyaml.version>
     <xmlbeans.version>2.3.0</xmlbeans.version>
     <beanutils.version>1.8.3</beanutils.version>
-    <lucene.version>6.4.2</lucene.version>
+    <lucene.version>7.4.0</lucene.version>
     <commons-cli.version>1.4</commons-cli.version>
 
     <!-- For integration tests using ANT -->
@@ -114,6 +114,15 @@
       </exclusions>
       <scope>test</scope>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.mockito/mockito-inline -->
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-inline</artifactId>
+      <version>2.28.2</version>
+      <scope>test</scope>
+    </dependency>
+
 
     <dependency>
       <groupId>org.elasticsearch</groupId>
