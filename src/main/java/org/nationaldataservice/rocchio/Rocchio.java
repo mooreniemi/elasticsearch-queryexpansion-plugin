@@ -510,6 +510,9 @@ public class Rocchio {
     public FeatureVectorLocal expandQuery(String query, int fbDocs, int fbTerms) throws IOException {
         // Run the initial query
         SearchHits hits = runQuery(this.index, query, fbDocs).getHits();
+        if (hits.getHits().length == 0) {
+            return null;
+        }
 
         // Get the feedback document vector, weighted by beta
         FeatureVectorLocal feedbackVector = getFeedbackVector(hits, fbDocs);
@@ -539,13 +542,15 @@ public class Rocchio {
      */
     private void computeBM25Weights(FeatureVectorLocal inputVector, FeatureVectorLocal outputVector) {
         for (String term : inputVector.getFeatures()) {
-            long docOccur = dfStats.get(term);
+            if (dfStats.containsKey(term)) {
+                long docOccur = dfStats.get(term);
 
-            double idf = Math.log((docCount + 1) / (docOccur + 0.5)); // following Indri
-            double tf = inputVector.getFeatureWeight(term);
+                double idf = Math.log((docCount + 1) / (docOccur + 0.5)); // following Indri
+                double tf = inputVector.getFeatureWeight(term);
 
-            double weight = (idf * k1 * tf) / (tf + k1 * (1 - b + b * inputVector.getLength() / avgDocLen));
-            outputVector.addTerm(term, weight);
+                double weight = (idf * k1 * tf) / (tf + k1 * (1 - b + b * inputVector.getLength() / avgDocLen));
+                outputVector.addTerm(term, weight);
+            }
         }
     }
 

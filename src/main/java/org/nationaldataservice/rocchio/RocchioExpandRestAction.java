@@ -113,26 +113,30 @@ public class RocchioExpandRestAction extends BaseRestHandler {
             // Expand the query
             this.logger.debug("Generating feedback query for (" + query + "," + fbDocs + "," + fbTerms);
             FeatureVectorLocal feedbackQuery = rocchio.expandQuery(query, fbDocs, fbTerms);
-    
-            // Format our expanded query with Lucene's boosting syntax
-            this.logger.debug("Expanding query: " + feedbackQuery.toString());
-            StringBuffer expandedQuery = new StringBuffer();
-            String separator = ""; // start out with no separator
-    
-            for (String term : feedbackQuery.getFeatures()) {
-                expandedQuery.append(separator + term + "^" + feedbackQuery.getFeatureWeight(term));
-                separator = " "; // add separator after first iteration
+
+            String fullQuery = query;
+            if (feedbackQuery != null) {
+                // Format our expanded query with Lucene's boosting syntax
+                this.logger.debug("Expanding query: " + feedbackQuery.toString());
+                StringBuffer expandedQuery = new StringBuffer();
+                String separator = ""; // start out with no separator
+
+                for (String term : feedbackQuery.getFeatures()) {
+                    expandedQuery.append(separator + term + "^" + feedbackQuery.getFeatureWeight(term));
+                    separator = " "; // add separator after first iteration
+                }
+
+                fullQuery = expandedQuery.toString().trim();
             }
-    
-            String fullQuery = expandedQuery.toString().trim();
-    
+
             // Return the expanded query (don't actually perform the search)
-            this.logger.debug("Responding: " + expandedQuery.toString());
+            final String returnedQuery = fullQuery;
+            this.logger.debug("Responding: " + returnedQuery);
             return channel -> {
                 XContentBuilder builder = JsonXContent.contentBuilder();
                 builder.startObject();
     
-                builder.field("query", fullQuery);
+                builder.field("query", returnedQuery);
                 builder.endObject();
                 channel.sendResponse(new BytesRestResponse(RestStatus.OK, builder));
             };

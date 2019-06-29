@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e33f1e9-8a30-4679-a931-92d391647399" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/assemblies/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/assemblies/plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/elasticsearch/rocchio/Rocchio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/Rocchio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/elasticsearch/rocchio/RocchioException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/elasticsearch/rocchio/RocchioExpandRestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioExpandRestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/elasticsearch/rocchio/RocchioPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioPlugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin-descriptor.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin-descriptor.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/nationaldataservice/elasticsearch/rocchio/test/integration/AbstractITCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nationaldataservice/rocchio/test/integration/AbstractITCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/nationaldataservice/elasticsearch/rocchio/test/integration/RocchioIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nationaldataservice/rocchio/test/integration/RocchioIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/nationaldataservice/elasticsearch/rocchio/test/unit/RocchioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/nationaldataservice/rocchio/test/unit/RocchioTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/Rocchio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/Rocchio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioExpandRestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioExpandRestAction.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,11 +15,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/remove.sh">
           <provider selected="true" editor-type-id="text-editor" />
@@ -48,24 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="600">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioExpandRestAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
-              <folding>
-                <element signature="e#1569#1570#0" expanded="true" />
-                <element signature="e#1633#1634#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="724">
+              <caret line="141" column="13" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -73,8 +59,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/Rocchio.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="439" column="76" selection-start-line="439" selection-start-column="76" selection-end-line="439" selection-end-column="76" />
+            <state relative-caret-position="120">
+              <caret line="506" column="25" selection-start-line="506" selection-start-column="25" selection-end-line="506" selection-end-column="25" />
+              <folding>
+                <element signature="e#7731#7745#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,14 +71,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="960">
               <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#154#169#0" expanded="true" />
-                <element signature="e#220#235#0" expanded="true" />
-                <element signature="e#286#301#0" expanded="true" />
-                <element signature="e#286#301#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/cluster/metadata/MappingMetaData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
+            <state relative-caret-position="4480">
               <caret line="158" column="31" selection-start-line="158" selection-start-column="31" selection-end-line="158" selection-end-column="31" />
             </state>
           </provider>
@@ -107,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/FeatureVectorLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-422">
-              <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+            <state relative-caret-position="7560">
+              <caret line="245" column="18" selection-start-line="245" selection-start-column="18" selection-end-line="245" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/client/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
+            <state relative-caret-position="13800">
               <caret line="411" column="29" selection-start-line="411" selection-start-column="29" selection-end-line="411" selection-end-column="29" />
             </state>
           </provider>
@@ -154,6 +139,9 @@
       <find>doc.sent</find>
       <find>getFeedback</find>
       <find>_all</find>
+      <find>does not</find>
+      <find>computer</find>
+      <find>getFeedbackVector</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,11 +159,11 @@
         <option value="$PROJECT_DIR$/src/main/java/utils/FeatureVectorCAI.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/FeatureVectorLocal.java" />
         <option value="$PROJECT_DIR$/src/main/assemblies/plugin.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioExpandRestAction.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/Rocchio.java" />
         <option value="$PROJECT_DIR$/test.sh" />
+        <option value="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/Rocchio.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioExpandRestAction.java" />
       </list>
     </option>
   </component>
@@ -309,7 +297,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="-4" />
     <option name="width" value="3200" />
-    <option name="height" value="1791" />
+    <option name="height" value="1769" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -318,120 +306,11 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="assemblies" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rocchio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elasticsearch-queryexpansion-plugin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: edu.illinois.lis:ir-utils:0.2.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: edu.illinois.lis:ir-utils:0.2.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="ir-utils-0.2.0-20170804.213909-22.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: edu.illinois.lis:ir-utils:0.2.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="ir-utils-0.2.0-20170804.213909-22.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="gslis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rocchio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: edu.illinois.lis:ir-utils:0.2.0-SNAPSHOT" type="70bed36:NamedLibraryElementNode" />
-              <item name="ir-utils-0.2.0-20170804.213909-22.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="gslis" type="462c0819:PsiDirectoryNode" />
-              <item name="textrepresentation" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
@@ -508,11 +387,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Java Scratch.Scratch" />
       <item itemvalue="JUnit.All in rocchio" />
       <item itemvalue="JUnit.org.nationaldataservice.elasticsearch.rocchio.test in rocchio" />
       <item itemvalue="JUnit.RocchioTest" />
       <item itemvalue="Remote.ESDebug" />
-      <item itemvalue="Java Scratch.Scratch" />
     </list>
     <recent_temporary>
       <list>
@@ -569,36 +448,36 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="3200" height="1791" extended-state="0" />
+    <frame x="0" y="-4" width="3200" height="1769" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.24983881" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3290735" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32987687" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3290735" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39552715" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39533377" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Cargo" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Cargo" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="XDebuggerManager">
@@ -779,19 +658,6 @@
     <entry file="file://$PROJECT_DIR$/rebuild.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/remove.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/install.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/assemblies/plugin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2.jar!/org/elasticsearch/rest/BaseRestHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -831,34 +697,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/client/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="411" column="29" selection-start-line="411" selection-start-column="29" selection-end-line="411" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/action/termvectors/MultiTermVectorsResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3790">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/FeatureVectorLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-422">
-          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/cluster/metadata/MappingMetaData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="158" column="31" selection-start-line="158" selection-start-column="31" selection-end-line="158" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -874,42 +716,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioExpandRestAction.java">
+    <entry file="file://$PROJECT_DIR$/scripts/remove.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/install.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/assemblies/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="80" column="47" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
-          <folding>
-            <element signature="e#1569#1570#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="640">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
+        <state relative-caret-position="960">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#154#169#0" expanded="true" />
-            <element signature="e#220#235#0" expanded="true" />
-            <element signature="e#286#301#0" expanded="true" />
-            <element signature="e#286#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/cluster/metadata/MappingMetaData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4480">
+          <caret line="158" column="31" selection-start-line="158" selection-start-column="31" selection-end-line="158" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/6.4.2/elasticsearch-6.4.2-sources.jar!/org/elasticsearch/client/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13800">
+          <caret line="411" column="29" selection-start-line="411" selection-start-column="29" selection-end-line="411" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/FeatureVectorLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7560">
+          <caret line="245" column="18" selection-start-line="245" selection-start-column="18" selection-end-line="245" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/Rocchio.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="439" column="76" selection-start-line="439" selection-start-column="76" selection-end-line="439" selection-end-column="76" />
+        <state relative-caret-position="120">
+          <caret line="506" column="25" selection-start-line="506" selection-start-column="25" selection-end-line="506" selection-end-column="25" />
+          <folding>
+            <element signature="e#7731#7745#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.sh">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/nationaldataservice/rocchio/RocchioExpandRestAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="724">
+          <caret line="141" column="13" selection-start-line="141" selection-start-column="13" selection-end-line="141" selection-end-column="13" />
         </state>
       </provider>
     </entry>
